@@ -11,9 +11,11 @@ try:
             print("{o}")
             if o==("Jah"):
                 print("See on ligipääs teie vanematele.")
+                print("Tahvel on kinni.")
             else:
                 o==("Ei")
                 print("Sissepääs puudub.")
+                print("Tahvel on kinni.")
     if vanus<18:
         print("Juurdepääs vanematele on automaatselt antud.")
 except:
