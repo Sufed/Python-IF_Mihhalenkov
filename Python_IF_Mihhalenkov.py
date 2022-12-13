@@ -1,16 +1,37 @@
-﻿from math import *
+from math import *
 from random import *
 #13/12/22
-print("Составить алгоритм вывода количества урокав каждый день определяя его порядковому номеру (1 – понедельник, 2 – вторник, 3 – среда, 4 – четверг, 5 – пятница, 6 – суббота, 7 – воскресенье).")
+print("Sisselogimine tahvel")
 try:
-    päev=int(input("Mis päev täna on? "))
-    if päev:=("esmaspäev"):
+    vanus=int(input("Kui vana sa oled? "))
+    if vanus>18:
+        print("Kas te annate vanematele loa oma Tahvelit vaadata?")
+        o=(input("Jah või ei. "))
+        if o==("Jah") or ("ei"):
+            print("{o}")
+            if o==("Jah"):
+                print("See on ligipääs teie vanematele.")
+            else:
+                o==("Ei")
+                print("Sissepääs puudub.")
+    if vanus<18:
+        print("Juurdepääs vanematele on automaatselt antud.")
 except:
-    print("MIS PÄEV TÄNA ON???")
-
-
-
-
+    print("Tahvel on kinni.")
+print()
+print()
+print()
+try:
+    päev=(input("Mis päeva täna on."))
+    if päev==("esmaspäev") and päev.isdigit:
+        print("Sobib")
+    else:
+        print("välju või vähe")
+except:
+    print("Da")
+print()
+print()
+print()
 print("Распорядок дня. (Выходные)")
 try:
     aeg=int(input("Mis aeg praegu on? "))
@@ -18,53 +39,53 @@ except:
     print("da")
 try:
     if aeg==(12):
-        print("Сплю")
+        print("Magan")
     elif aeg==(13):
-        print("Сплю")
+        print("Magan")
     elif aeg==(14):
-        print("Сплю")
+        print("Magan")
     elif aeg==(15):
         print("Просыпаюсь, умываюсь, ем.")
     elif aeg==(16):
-        print("Играю в компьюктере")
+        print("Arvuti mängida")
     elif aeg==(17):
-        print("Играю в компьюктере")
+        print("Arvuti mängida")
     elif aeg==(18):
-        print("Играю в компьюктере")
+        print("Arvuti mängida")
     elif aeg==(19):
-        print("Играю в компьюктере")
+        print("Arvuti mängida")
     elif aeg==(20):
-        print("Играю в компьюктере")
+        print("Arvuti mängida")
     elif aeg==(21):
-        print("Играю в компьюктере")
+        print("Arvuti mängida")
     elif aeg==(22):
-        print("Играю в компьюктере")
+        print("Arvuti mängida")
     elif aeg==(23):
-        print("Играю в компьюктере")
+        print("Arvuti mängida")
     elif aeg==(0):
         print("За 5 минут делаю уроки и спать")
     elif aeg==(1):
-        print("Сплю")
+        print("Magan")
     elif aeg==(2):
-        print("Сплю")
+        print("Magan")
     elif aeg==(3):
-        print("Сплю")
+        print("Magan")
     elif aeg==(4):
-        print("Сплю")
+        print("Magan")
     elif aeg==(5):
-        print("Сплю")
+        print("Magan")
     elif aeg==(6):
-        print("Сплю")
+        print("Magan")
     elif aeg==(7):
-        print("Сплю")
+        print("Magan")
     elif aeg==(8):
-        print("Сплю")
+        print("Magan")
     elif aeg==(9):
-        print("Сплю")
+        print("Magan")
     elif aeg==(10):
-        print("Сплю")
+        print("Magan")
     elif aeg==(11):
-        print("Сплю")
+        print("Magan")
 except:
     print("Vale andmetüüp")
 print()
