@@ -1,6 +1,11 @@
 from math import *
 from random import *
 #14/12/22
+range(10,0,-2)
+
+
+
+
 a=6
 b=4
 a=2*a+3*b
