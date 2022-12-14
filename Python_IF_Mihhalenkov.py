@@ -1,21 +1,69 @@
 from math import *
 from random import *
+#14/12/22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print()
+print()
+print()
+try:
+    päev=int(input("Mis päev ja mitu tundi täna on? "))
+    if päev==1:
+        n="esmaspäev"
+        n="6 tundi"
+    elif päev==2:
+        n="teisipäev"
+        n="8 tundi"
+    elif päev==3:
+        n="kolmapäev"
+        n="6 tundi"
+    elif päev==4:
+        n="neljapäev"
+    elif päev==5:
+        n="laupäev"
+        n="0 tundi"
+    else:
+        n="vale number"
+    print(n)
+except:
+    print("!!!!!!")
+print()
+print()
+print()
 #13/12/22
 print("Sisselogimine tahvel")
 try:
     vanus=int(input("Kui vana sa oled? "))
-    if vanus>18:
+    if vanus>=18:
         print("Kas te annate vanematele loa oma Tahvelit vaadata?")
         o=(input("Jah või ei. "))
-        if o==("Jah") or ("ei"):
-            print("{o}")
-            if o==("Jah"):
-                print("See on ligipääs teie vanematele.")
-                print("Tahvel on kinni.")
-            else:
-                o==("Ei")
-                print("Sissepääs puudub.")
-                print("Tahvel on kinni.")
+        if o.lower()=="jah": #upper() будет делать все буквы большими
+            print({o})
+            print("See on ligipääs teie vanematele.")
+            print("Tahvel on kinni.")
+        elif o.upper()=="EI":
+             print("Sissepääs puudub.")
+             print("Tahvel on kinni.")
     if vanus<18:
         print("Juurdepääs vanematele on automaatselt antud.")
 except:
@@ -31,15 +79,12 @@ try:
         print("välju või vähe")
 except:
     print("Da")
-print()
+print() 
 print()
 print()
 print("Распорядок дня. (Выходные)")
 try:
     aeg=int(input("Mis aeg praegu on? "))
-except:
-    print("da")
-try:
     if aeg==(12):
         print("Magan")
     elif aeg==(13):
