@@ -1,17 +1,27 @@
 from math import *
 from random import *
 #14/12/22
+a=6
+b=4
+a=2*a+3*b
+b=a/2*b
+print({a})
 
+x=17
+y=23
+y=x+y+1
+x=y+x
+print({x})
 
+name=input("Nimi ")
+print("Привет,",{name})
 
+m=int(input("Введи длину в метрах: "))
+km=m/1000
+print("Длина в километрах: ", {km})
 
-
-
-
-
-
-
-
+t=type(9**(1/2))
+print({t})
 
 
 
